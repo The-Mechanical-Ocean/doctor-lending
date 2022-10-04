@@ -3,6 +3,8 @@ import { useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Header from '../Header/Header';
+import AboutProject from '../AboutProject/AboutProject';
+import Privilege from '../Privilege/Privilege';
 // import Footer from '../Footer/Footer';
 // import Main from '../Main/Main';
 // import Register from '../Register/Register';
@@ -40,6 +42,8 @@ function App() {
   return (
     <div className='app'>
       <Header />
+      <AboutProject />
+      <Privilege />
       <Routes>
         {/* <Route path='/' element={<Main />}/>
         <Route path='/signup' element={<Register />}/>
