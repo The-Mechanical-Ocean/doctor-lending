@@ -1,0 +1,132 @@
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  outline: 1px solid red;
+}
+
+.header__img-container {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid red;
+}
+
+.header__face-img {
+  background-image: url('../../images/faceboock.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.header__inst-img {
+  background-image: url('../../images/insta.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.header__twit-img {
+  background-image: url('../../images/twiter.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.header__link {
+  width: 24px;
+  height: 24px;
+}
+
+.header__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  color: #24B4E6;
+}
+
+.header__menu {
+  background-image: url('../../images/header-menu.svg');
+  width: 40px;
+  height: 24px;
+}
+.header-main {
+  margin: 0 auto;
+  max-width: 1280px;
+  min-height: 74px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 70px 0;
+}
+
+.header__small {
+  max-width: 396px;
+  margin: 130px auto 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__logo {
+  background-image: url(../../images/page__logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+  color: #FFFFFF;
+}
+
+.header__logo-link:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease 0s;
+}
+
+@media screen and (max-width: 1160px) {
+  .header {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    max-width: 710px;
+  }
+
+  .header-main .header {
+    max-width: 728px;
+    padding: 0 25px 0;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .header {
+    max-width: 292px;
+  }
+  
+  .header-main {
+    max-width: 320px;
+    padding: 0 auto 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-main {
+    max-width: 292px;
+  }
+  
+  .header-main__logo {
+    width: 103px;
+    height: 24px;
+    margin-left: 27px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__small {
+    max-width: 260px;
+    justify-content: center;
+  }
+}
