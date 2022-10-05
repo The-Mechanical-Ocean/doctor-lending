@@ -1,15 +1,12 @@
 .card {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
-  /* align-items: flex-start; */
   background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%);
-  ;
   border-radius: 6px;
   gap: 30px;
   height: 500px;
   width: 100%;
-outline: 1px solid red;
+/* outline: 1px solid red; */
 }
 
 .card__info {
@@ -19,13 +16,13 @@ outline: 1px solid red;
   height: 400px;
   margin-right: 1%;
 }
+
 .card__text-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 200px;
-  /* margin: 18px 0 18px; */
 }
 
 .card__image-container {
@@ -40,7 +37,7 @@ outline: 1px solid red;
   background-size: cover;
   background-repeat: no-repeat;
   width: 80%;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .card__title {
@@ -49,7 +46,7 @@ outline: 1px solid red;
   font-size: 30px;
   line-height: 18px;
   color: #94C31F;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .card__text {
@@ -58,7 +55,7 @@ outline: 1px solid red;
   font-size: 22px;
   line-height: 28px;
   width: 700px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .card__button-text {
@@ -75,7 +72,6 @@ outline: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 18px 0 18px; */
   background-color: #94C31F;
   border-radius: 25px;
   cursor: pointer;

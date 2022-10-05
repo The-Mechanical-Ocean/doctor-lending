@@ -12,7 +12,7 @@ function Card({card}) {
         <li><div className='card-problem__text-container'><img className='card-problem__text-image' src={galka} alt='card image'/><p className='card-problem__text'>{card.text3}</p></div></li>
         <li><div className='card-problem__text-container'><img className='card-problem__text-image' src={galka} alt='card image'/><p className='card-problem__text'>{card.text4}</p></div></li>
       </ul>
-      <img className='card-problem__image' src={card.image} alt='card image'/>
+      <div className='card-problem__image-container'><img className='card-problem__image' src={card.image} alt='card image'/></div>
     </div>
   );
 };

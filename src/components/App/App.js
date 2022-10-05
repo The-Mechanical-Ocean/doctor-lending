@@ -6,8 +6,9 @@ import Header from '../Header/Header';
 import AboutProject from '../AboutProject/AboutProject';
 import Privilege from '../Privilege/Privilege';
 import Problem from '../Problem/Problem';
+import Inovation from '../Inovation/Inovation';
 
-// import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer';
 // import Main from '../Main/Main';
 // import Register from '../Register/Register';
 // import Login from '../Login/Login';
@@ -47,6 +48,7 @@ function App() {
       <AboutProject />
       <Privilege />
       <Problem />
+      <Inovation />
       <Routes>
         {/* <Route path='/' element={<Main />}/>
         <Route path='/signup' element={<Register />}/>
@@ -56,7 +58,7 @@ function App() {
         <Route path='/profile' element={<Profile name={'Александр'} email={'pochta@yandex.ru'}/>}/>
         <Route path='*' element={<PageNotFound/>}/> */}
       </Routes>  
-      {/* <Footer />       */}
+      <Footer />      
     </div>
   )
 }

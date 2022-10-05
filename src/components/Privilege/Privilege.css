@@ -32,7 +32,7 @@
   font-size: 32px;
   line-height: 27px;
   color: #94C31F;
-  outline: 1px solid red ;
+  /* outline: 1px solid red ; */
 }
 
 .privilege__foto {
@@ -82,7 +82,7 @@
 }
 
 .privilege__nav {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin-top: 30px;
   padding-bottom: 60px;
   width: 100%;

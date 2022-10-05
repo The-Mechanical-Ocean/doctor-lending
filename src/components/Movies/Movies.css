@@ -1,7 +1,0 @@
-.movies {
-  max-width: 1280px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-self: center;
-}
