@@ -5,6 +5,8 @@ import './App.css';
 import Header from '../Header/Header';
 import AboutProject from '../AboutProject/AboutProject';
 import Privilege from '../Privilege/Privilege';
+import Problem from '../Problem/Problem';
+
 // import Footer from '../Footer/Footer';
 // import Main from '../Main/Main';
 // import Register from '../Register/Register';
@@ -44,6 +46,7 @@ function App() {
       <Header />
       <AboutProject />
       <Privilege />
+      <Problem />
       <Routes>
         {/* <Route path='/' element={<Main />}/>
         <Route path='/signup' element={<Register />}/>

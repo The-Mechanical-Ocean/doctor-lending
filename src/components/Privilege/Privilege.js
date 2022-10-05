@@ -1,6 +1,5 @@
 import React from 'react';
 import './Privilege.css';
-import card from '../../utils/cards'
 import Card from '../Card/Card'
 import cards from '../../utils/cards';
 

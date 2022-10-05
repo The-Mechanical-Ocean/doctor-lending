@@ -2,8 +2,9 @@
   margin: 0 auto;
   /* max-width: 1440px; */
   height: 444px;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
+  justify-content: space-between;
   /* flex-direction: column; */
   /* overflow: hidden; */
   align-items: center;
@@ -26,7 +27,7 @@
   /* transform: translate(10%, 0); */
   /* text-align: center; */
   height: 100%;
-  width: 60%;
+  width: 800px;
   background-image: url(../../images/gradient.svg);
   background-size:cover;
   background-repeat: no-repeat;
@@ -47,9 +48,9 @@
 
 .about__foto {
   background-image: url(../../images/About__project-foto.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 50%;
+  width: 650px;
   height: 100%;
   outline: 1px solid red;
   z-index: 2;
@@ -83,7 +84,7 @@
 }
 .about__button {
   border: none;
-  margin-right: 19%;
+  margin-right: 25%;
   width: 291px;
   height: 94px;
   font-weight: 400;
