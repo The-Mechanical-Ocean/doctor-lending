@@ -3,7 +3,6 @@
   height: 444px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: #94C31F;
   /* outline: 1px solid red; */
 }
@@ -13,10 +12,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding-left: 0;
+  align-items: left;
+  padding-left: 10%;
   height: 100%;
-  width: 800px;
   background-image: url(../../images/gradient.svg);
   background-size:cover;
   background-repeat: no-repeat;
@@ -73,7 +71,6 @@
 
 .about__button {
   border: none;
-  margin-right: 25%;
   width: 291px;
   height: 94px;
   font-weight: 400;
@@ -86,50 +83,6 @@
   align-items: center;
   background-color:#ade22f;
 }
-
-.about__duration-study-column {
-  display: flex;
-  flex-direction: column;
-}
-
-/* .about__duration-study-cell-first {
-  width: 228px;
-  height: 36px;
-  text-align: center;
-  color: #000;
-}
-
-.about__duration-study-cell-first:nth-child(1) {
-  background-color: #3DDC84;
-}
-
-.about__duration-study-cell-second {
-  width: 912px;
-  height: 36px;
-  text-align: center;
-}
-
-.about__duration-study-cell-second:nth-child(1) {
-  background-color: #303030;
-  color: #fff;
-}
-
-.about__duration-study-text-first {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  margin: 10px 0 0;
-}
-
-.about__duration-study-text-second {
-  font-style: normal;
-  margin-top: 14px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #8B8B8B;
-} */
 
 /* @media screen and (max-width: 900px) {
   .about {
