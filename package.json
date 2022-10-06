@@ -2,7 +2,7 @@
   "name": "doctor-lending",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/The-Mechanical-Ocean/doctor-lending#readme",
+  "homepage": "https://the-mechanical-ocean.github.io/doctor-lending/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
