@@ -3,7 +3,6 @@ import './CardProblem.css';
 import galka from '../../images/CardProblemGalka.svg';
 
 function Card({card}) {
-
   return (
     <div className='card-problem'>
       <ul className='card-problem__ul'>

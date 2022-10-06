@@ -3,7 +3,6 @@
   max-width: 1280px;
   min-width: 320px;
   background-color: #fff;
-  /* overflow: hidden; */
 }
 
 .privilege__container {
@@ -36,7 +35,6 @@
 }
 
 .privilege__foto {
-  /* background-image: url(../../images/privilege__foto.jpg); */
   background-size:cover;
   background-repeat: no-repeat;
   width: 270px;
@@ -82,13 +80,13 @@
 }
 
 .privilege__nav {
-  /* outline: 1px solid red; */
   margin-top: 30px;
   padding-bottom: 60px;
   width: 100%;
   display: flex;
   align-self: center;
-  justify-content: space-between; 
+  justify-content: space-between;
+  /* outline: 1px solid red; */ 
 }
 
 .privilege__button {
@@ -99,8 +97,6 @@
   font-size: 13px;
   line-height: 16px;
   align-items: center;
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
   border-radius: 10px;
   background-color: #94C31F;
 }
@@ -129,7 +125,7 @@
   transition: opacity 0.5s ease 0s;
 }
 
-@media screen and (max-width: 1080px) {
+/* @media screen and (max-width: 1080px) {
   .privilege__description {
     width: 425px;
     margin-top: 20px;
@@ -236,4 +232,4 @@
     justify-content: flex-start;
     gap: 26px;
   }
-}
+} */

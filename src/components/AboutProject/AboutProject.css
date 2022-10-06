@@ -15,8 +15,6 @@
   justify-content: center;
   align-items: center;
   padding-left: 0;
-  /* transform: translate(10%, 0); */
-  /* text-align: center; */
   height: 100%;
   width: 800px;
   background-image: url(../../images/gradient.svg);
@@ -58,7 +56,6 @@
 .about__text {
   width: 60%;
   padding: 0;
-  /* margin: 0; */
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
@@ -73,6 +70,7 @@
 .about__text:last-of-type{
   margin-top: 0;
 }
+
 .about__button {
   border: none;
   margin-right: 25%;

@@ -7,9 +7,9 @@ function Problem() {
   const [isClick, setIsClick] = React.useState(false);
   
   function handleClick() { 
-      setIsClick(!isClick);
-    
+    setIsClick(!isClick);
   }
+  
   return (  
     <section className='problem' id='problem'>
       <div className='problem__container'>  

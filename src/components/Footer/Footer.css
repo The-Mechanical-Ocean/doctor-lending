@@ -1,58 +1,73 @@
 .footer {
   margin: 0 auto 0;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
-  max-width: 1280px;
+  max-width: 1000px;
   min-width: 292px;
-  width: 89%;
 }
 
 .footer__title {
-  margin: 150px auto 20px;
-  color: #8B8B8B;
+  margin: 150px auto 0;
+  color: #94C31F;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 15.5px;
-}
-
-.footer__nav-container {
-  width: 1fr;
-  height: 56px;
-  border-top: 1px solid #424242;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer__copyright {
-  margin: 0;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 15.5px;
-  color: #fff;
-}
-
-.footer__nav {
-  display: flex;
-  gap: 20px;
-}
-
-.footer__link {
-  text-decoration: none;
-  margin-top:auto;
-  margin-bottom: auto;
-  z-index: 1;
-  height: fit-content;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .footer__text {
-  margin: 0;
-  font-style: normal;
+  margin: 62px auto 0;
+  color: black;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
-  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer__contact-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contact-container-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__img-container {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__face-img {
+  background-image: url('../../images/faceboock.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.footer__inst-img {
+  background-image: url('../../images/insta.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.footer__twit-img {
+  background-image: url('../../images/twiter.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.footer__link {
+  width: 24px;
+  height: 24px;
+}
+
+.footer__iframe {
+  margin-top: 40px;
+  width: 1000px;
+  height: 400px;
 }
 
 .footer__link:hover {
@@ -60,7 +75,7 @@
   transition: opacity 0.5s ease 0s;
 }
 
-@media screen and (max-width: 1160px) {
+/* @media screen and (max-width: 1160px) {
   .footer {
     max-width: 768px;
   }
@@ -109,4 +124,4 @@
     font-size: 12px;
     line-height: 14.5px;
   }
-}
+} */
