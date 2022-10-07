@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/doctor-lending/static/css/main.33568b5b.css",
-    "main.js": "/doctor-lending/static/js/main.deecb3f3.js",
+    "main.css": "/doctor-lending/static/css/main.7ac3b861.css",
+    "main.js": "/doctor-lending/static/js/main.80913aed.js",
     "static/js/787.5a0a1fd0.chunk.js": "/doctor-lending/static/js/787.5a0a1fd0.chunk.js",
     "static/media/Inovation__kovrik.svg": "/doctor-lending/static/media/Inovation__kovrik.6e4089389d3da07cab148a5b557c37f8.svg",
     "static/media/About__project-foto.png": "/doctor-lending/static/media/About__project-foto.aa3453831360f2248a81.png",
@@ -18,18 +18,17 @@
     "static/media/gradient.svg": "/doctor-lending/static/media/gradient.d798b558496cb1fbfccf.svg",
     "static/media/insta.svg": "/doctor-lending/static/media/insta.151f6c30bc05cdc3379b.svg",
     "static/media/twiter.svg": "/doctor-lending/static/media/twiter.b1ddd3511249f45a8599.svg",
-    "static/media/page__logo.svg": "/doctor-lending/static/media/page__logo.78ee6e76ae0211ac88d9.svg",
     "static/media/faceboock.svg": "/doctor-lending/static/media/faceboock.8b04ed7aafebf9568b78.svg",
     "index.html": "/doctor-lending/index.html",
     "static/media/header-menu.svg": "/doctor-lending/static/media/header-menu.f7b5b14c40ea330fa29c.svg",
     "static/media/CardProblemGalka.svg": "/doctor-lending/static/media/CardProblemGalka.86e91d3e6cad8b371a1d2613da8ae131.svg",
     "static/media/ok.svg": "/doctor-lending/static/media/ok.ea7f3c395b381e08013372d2dd89e4b3.svg",
-    "main.33568b5b.css.map": "/doctor-lending/static/css/main.33568b5b.css.map",
-    "main.deecb3f3.js.map": "/doctor-lending/static/js/main.deecb3f3.js.map",
+    "main.7ac3b861.css.map": "/doctor-lending/static/css/main.7ac3b861.css.map",
+    "main.80913aed.js.map": "/doctor-lending/static/js/main.80913aed.js.map",
     "787.5a0a1fd0.chunk.js.map": "/doctor-lending/static/js/787.5a0a1fd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33568b5b.css",
-    "static/js/main.deecb3f3.js"
+    "static/css/main.7ac3b861.css",
+    "static/js/main.80913aed.js"
   ]
 }
