@@ -2,7 +2,6 @@
     display: flex;
     border-radius: 6px;
     gap: 60px;
-    /* outline: 1px solid red; */
   }
   
   .card-problem__ul {
@@ -22,16 +21,16 @@
     gap: 25px;
   }
   
-  .card__image-container {
+  .card-problem__image-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 150%;
   }
   
   .card-problem__image {
     background-size: cover;
     background-repeat: no-repeat;
-    /* outline: 1px solid red; */
   }
   
   .card-problem__text {
@@ -39,7 +38,6 @@
     font-weight: 600;
     font-size: 19px;
     line-height: 30px;
-    /* outline: 1px solid red; */
   }
   
   .card-problem__text-image {
@@ -49,24 +47,53 @@
     height: 30px;
   }
   
-  /* @media screen and (max-width: 645px) {
-    .card__title {
+  @media screen and (max-width: 1350px) {
+    .card-problem {
+      display: flex;
+      border-radius: 6px;
+      gap: 50px;
+    }
+    
+    .card-problem__text-container {
+      gap: 20px;
+    }
+    
+    .card-problem__text {
+      font-size: 15px;
+      line-height: 24px;
+    }
+    
+    .card-problem__text-image {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .card-problem {
+      display: flex;
+      border-radius: 6px;
+      gap: 40px;
+    }
+    
+    .card-problem__text-container {
+      gap: 15px;
+      /* width: 50%; */
+    }
+    
+    .card-problem__text {
       font-size: 12px;
-      margin-left: 14px;
+      line-height: 21px;
     }
-  
-    .card__time {
-      font-size: 10px;
-      margin-right: 14px;
+    
+    .card-problem__text-image {
+      width: 21px;
+      height: 21px;
     }
-  
-    .card__text-container {
-      margin-top: 14px;
-      margin-bottom: 14px;
+
+    .card-problem__image {
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
-  
-    .card__button {
-      margin-top: 14px;
-      margin-bottom: 14px;
-    }
-  } */
+  }

@@ -125,50 +125,47 @@
   transition: opacity 0.5s ease 0s;
 }
 
-/* @media screen and (max-width: 1080px) {
-  .privilege__description {
-    width: 425px;
-    margin-top: 20px;
-    font-size: 12px;
-    line-height: 18px;
+ @media screen and (max-width: 1350px) {
+  .privilege {
+    max-width: 1080px;
   }
+
+  .privilege__nav {
+    margin-top: 30px;
+    padding-bottom: 40px; 
+  }
+  
+  .privilege__button {
+    width: 165px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #94C31F;
+    color: #FFFFFF;
+  }  
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1280px) {
   .privilege {
-    padding: 0 50px 0;
+    max-width: 768px;
   }
 
-  .privilege__title-container {
-    width: 670px;
-    margin-top: 90px;
-    padding-bottom: 22px;
+  .privilege__title {
+    font-size: 27px;
   }
 
-  .privilege__name {
-    width: 348px;
-    margin-top: 66px;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
+  .privilege__nav {
+    margin-top: 30px;
+    padding-bottom: 40px; 
   }
   
-  .privilege__about {
-    width: 348px;
-    margin-top: 16px;
-    font-size: 12px;
-    line-height: 18px;
-  }
-  
-  .privilege__description {
-    width: 292px;
-  }
-
-  .privilege__foto {
-    width: 255px;
-    height: 307px;
-    bottom: 65px;
-  }
+  .privilege__button {
+    width: 120px;
+    font-size: 11px;
+    line-height: 12px;
+  }  
 }
 
 @media screen and (max-width: 720px) {
@@ -232,4 +229,4 @@
     justify-content: flex-start;
     gap: 26px;
   }
-} */
+} 

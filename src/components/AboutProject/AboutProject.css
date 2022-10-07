@@ -1,6 +1,8 @@
 .about {
-  margin: 0 auto;
-  height: 444px;
+  margin: 0 auto 0;
+  max-width: 1600px;
+  width: 99.5%;;
+  height: 620px;
   display: flex;
   justify-content: space-between;
   background-color: #94C31F;
@@ -15,6 +17,7 @@
   align-items: left;
   padding-left: 10%;
   height: 100%;
+  width: 100%;
   background-image: url(../../images/gradient.svg);
   background-size:cover;
   background-repeat: no-repeat;
@@ -33,22 +36,12 @@
   /* outline: 1px solid red; */
 }
 
+
 .about__foto {
-  background-image: url(../../images/About__project-foto.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 650px;
-  height: 100%;
-  /* outline: 1px solid red; */
-  z-index: 2;
-}
-
-.about__cell-heading {
-  margin: 0;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 62px;
-  color: #FFFFFF;
+  width: 100%;
+  z-index: 1;
 }
 
 .about__text {
@@ -62,14 +55,15 @@
 }
 
 .about__text:first-of-type{
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .about__text:last-of-type{
-  margin-top: 0;
+  margin-top: 30px;
 }
 
 .about__button {
+  margin-top: 60px;
   border: none;
   width: 291px;
   height: 94px;
@@ -84,44 +78,58 @@
   background-color:#ade22f;
 }
 
-/* @media screen and (max-width: 900px) {
+@media screen and (max-width: 1600px) {
+  /* .about__foto {
+    width: 70%;
+  }   */
+}  
+
+@media screen and (max-width: 1400px) {
+  .about__info-container {
+    padding-left: 5%;
+  }  
+}  
+
+@media screen and (max-width: 1400px) {
+  .about__info-container {
+    padding-left: 1%;
+  }  
+}  
+
+@media screen and (max-width: 1280px) {
   .about {
-    max-width: 768px;
-  }
-
-  .about__title-container {
-    width: 668px;
-    margin-top: 90px;
-  }
-
-  .about__list {
-    max-width: 668px;
-    margin-bottom: 90px;
-    gap: 30px;
+    max-width: 900px;
+    height: 380px;
   }
   
-  .about__cell-heading {
-    max-width: 319px;
+  .about__info-container {
+    /* height: 400px; */
+    /* width: 90%; */
+  }
+  .about__foto {
+    width: 50%;
+    height: 100%;
   }
 
-  .about__cell-text {
-    max-width: 320px;
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 22px;
+  .about__button {
+    margin-top: 25px;
   }
   
-  .about__duration-study {
-    max-width: 668px;
-    margin-bottom: 75px;
+  .about__title{
+    width: 90%;
   }
 
-  .about__duration-study-cell-first {
-    width: 140px;
+  .about__text{
+    width: 90%;
+  }
+  .about__text:first-of-type{
+    margin-top: 20px;
+    font-size: 16px;
   }
 
-  .about__duration-study-cell-second {
-    width: 530px;
+  .about__text:last-of-type {
+    margin-top: 10px;
+    font-size: 16px;
   }
 }
 
@@ -185,4 +193,4 @@
     font-size: 11px;
     line-height: 12px;
   }
-} */
+}
