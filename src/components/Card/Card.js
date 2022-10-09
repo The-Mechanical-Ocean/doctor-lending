@@ -1,14 +1,12 @@
 import React from 'react';
 import './Card.css';
-import ok from '../../images/ok.svg';
+
+const PHONE_NUMBER = '+79160978804'; 
+const MESSAGE = 'Добрый день, можно консультацию';
 
 function Card({card}) {
   const [isClick, setIsClick] = React.useState(false);
-
-  function handleCardsClick() {
-    setIsClick(!isClick);
-  }
-
+  
   return (
     <div className='card'>
       <div className='card__image-container'><img className='card__image' src={card.image} alt='card image'/></div>
@@ -17,10 +15,10 @@ function Card({card}) {
           <h2 className='card__title'>{card.name}</h2>
           <p className='card__text'>{card.text}</p>
         </div>
-        <button className={isClick ? 'card__button card__button_green' : 'card__button'}
-                onClick={handleCardsClick} type='button'> 
-          {isClick ? <img className='card__button-img' src={ok}></img> : <p className='card__button-text'>Записаться на консультацию</p>}
-        </button>
+        <a className={ isClick ? 'card__href card__href_green' : 'card__href'} href={`https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(MESSAGE)}` } target='_blank'
+           onClick={ () => setIsClick(!isClick) }>
+          { isClick ? <p className='about__href-text'>Уже записались?</p> : <p className='card__href-text'>Записаться на консультацию</p> }
+        </a>
       </div>
     </div>
   );

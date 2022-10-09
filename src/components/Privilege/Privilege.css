@@ -6,14 +6,9 @@
 }
 
 .privilege__container {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* overflow: hidden;  */
 }
 
 .privilege__title-container {
@@ -31,7 +26,6 @@
   font-size: 32px;
   line-height: 27px;
   color: #94C31F;
-  /* outline: 1px solid red ; */
 }
 
 .privilege__foto {
@@ -86,10 +80,10 @@
   display: flex;
   align-self: center;
   justify-content: space-between;
-  /* outline: 1px solid red; */ 
 }
 
 .privilege__button {
+  cursor: pointer;
   width: 190px;
   height: 60px;
   display: flex;
@@ -97,15 +91,14 @@
   font-size: 13px;
   line-height: 16px;
   align-items: center;
+  border: none;
   border-radius: 10px;
-  background-color: #94C31F;
+  background-color: #fff;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.1);
 }
 
 .privilege__button-gradient {
-  background-image: url(../../images/gradient.svg);
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: right;
+  background-color: #94C31F;
 }
 
 .privilege__link {
@@ -137,13 +130,9 @@
   
   .privilege__button {
     width: 165px;
-    font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    align-items: center;
-    border-radius: 10px;
-    background-color: #94C31F;
-    color: #FFFFFF;
+    border-radius: 5px;
   }  
 }
 
@@ -164,7 +153,7 @@
   .privilege__button {
     width: 120px;
     font-size: 11px;
-    line-height: 12px;
+    line-height: 12.5px;
   }  
 }
 
@@ -179,54 +168,22 @@
 
 @media screen and (max-width: 640px) {
   .privilege {
-    padding: 0;
-  }
-
-  .privilege__container {
-    width: 292px;
-  }
-
-  .privilege__title-container {
-    width: 292px;
-    margin-top: 55px;
-    padding-bottom: 28px;
+    max-width: 289px;
   }
   
   .privilege__title {
     font-size: 18px;
     line-height: 21px;
+    margin-top: 40px;
+    padding-bottom: 40px;
   }
   
-  .privilege__name {
-    max-width: 292px;
-    font-size: 30px;
-    line-height: 36px;
-    margin: 40px auto 0;
-  }
-  
-  .privilege__about {
-    width: 292px;
-    margin: 20px auto 0;
-    font-size: 11px;
-    line-height: 16px;
+  .privilege__title {
+    font-size: 20px;
   }
 
-  .privilege__description {
-    width: 295px;
-    margin: 20px auto 0;
+  .privilege__nav {
+    display: none; 
   }
   
-  .privilege__foto {
-    position:static;
-    width: 292px;
-    height: 352px;
-    margin: 60px auto 0;
-  }
-
-  .privilege__links {
-    width: 292px;
-    margin: 40px auto 0;
-    justify-content: flex-start;
-    gap: 26px;
-  }
 } 

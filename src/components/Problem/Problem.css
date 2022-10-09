@@ -40,21 +40,24 @@
   }
   
   .problem__button {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.1);
     width: 380px;
     height: 75px;
     display: flex;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    color: #fff;
+    color: black;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #94C31F;
+    cursor: pointer;
   }
   
   .problem__button-gradient {
-    background-image: url(../../images/gradient.svg);
+    background-color: #94C31F;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -148,6 +151,27 @@
   @media screen and (max-width: 1280px) {
     .problem {
       max-width: 768px;
+    }
+    
+    .problem__title {
+      font-size: 22px;
+    }
+    
+    .problem__nav {
+      margin-top: 35px;
+      padding-bottom: 35px; 
+    }
+    
+    .problem__button {
+      width: 240px;
+      height: 50px;
+      font-size: 12px;    
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .problem {
+      max-width: 288px;
     }
     
     .problem__title {

@@ -62,7 +62,8 @@
   margin-top: 30px;
 }
 
-.about__button {
+.about__href {
+  text-decoration: none;
   margin-top: 60px;
   border: none;
   width: 291px;
@@ -78,17 +79,25 @@
   background-color:#ade22f;
 }
 
+.about__href-text {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
 @media screen and (max-width: 1600px) {
   /* .about__foto {
     width: 70%;
   }   */
 }  
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
   .about__info-container {
     padding-left: 5%;
   }  
-}  
+}   */
 
 @media screen and (max-width: 1400px) {
   .about__info-container {
@@ -102,16 +111,15 @@
     height: 380px;
   }
   
-  .about__info-container {
-    /* height: 400px; */
-    /* width: 90%; */
-  }
   .about__foto {
     width: 50%;
     height: 100%;
   }
-
-  .about__button {
+  
+  .about__info-container {
+    padding-left: 30px;
+  }
+  .about__href {
     margin-top: 25px;
   }
   
@@ -122,6 +130,7 @@
   .about__text{
     width: 90%;
   }
+
   .about__text:first-of-type{
     margin-top: 20px;
     font-size: 16px;
@@ -136,61 +145,49 @@
 @media screen and (max-width: 640px) {
   .about {
     max-width: 320px;
+    height: 500px;
   }
 
-  .about__title-container {
-    width: 284px;
-    margin-top: 70px;
-    padding-bottom: 28px;
+  .about__info-container {
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }  
+  
+  .about__foto {
+    display: none;
+  }
+
+  .about__href {
+    width: 182px;
+    height: 59px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
   }
   
-  .about__title {
-    font-size: 18px;
-    line-height: 21px;
+  .about__title{
+    /* width: 90%; */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
   }
 
-  .about__list {
-    max-width: 284px;
-    margin: 60px 0 60px;
-    flex-wrap: wrap;
-    gap: 56px;
+  .about__text{
+    font-weight: 400;
+    line-height: 18px;
   }
 
-  .about__cell-heading {
-    max-width: 284px;
-    font-size: 17.5px;
-    line-height: 21px;
+  .about__text:first-of-type{
+    /* padding-bottom: 70px; */
+    margin-top: 10px;
+    font-size: 15px;
   }
 
-  .about__cell-text {
-    max-width: 284px;
-    font-size: 11px;
-    line-height: 16px;
-    margin-top: 16px;
-  }
-
-  .about__duration-study {
-    max-width: 284px;
-    margin-bottom: 70px;
-  }
-
-  .about__duration-study-cell-first {
-    width: 100px;
-    height: 35px;
-  }
-
-  .about__duration-study-cell-second {
-    font-size: 11px;
-    line-height: 13px;
-  }
-
-  .about__duration-study-cell-second {
-    width: 184px;
-    height: 35px;
-  }
-
-  .about__duration-study-text-second {
-    font-size: 11px;
-    line-height: 12px;
+  .about__text:last-of-type {
+    margin-bottom: 100px;
+    margin-top: 0;
+    font-size: 19px;
   }
 }

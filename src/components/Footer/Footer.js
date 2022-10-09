@@ -1,6 +1,9 @@
 import React from 'react';
 import './Footer.css';
 
+const PHONE_NUMBER = '+79160978804'; 
+const MESSAGE = 'Добрый день, можно консультацию';
+
 function Footer() {
   return (
     <footer className="footer">
@@ -13,7 +16,7 @@ function Footer() {
         </div>
         <div className='footer__contact-container-small'>
           <h3>Телефон</h3>
-          <p>+79281523453</p>
+          <a className='footer__href' href={ `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(MESSAGE)}` } target='_blank'>89160978804</a>
         </div>
         <div className='footer__contact-container-small'>
           <h3>E-mail</h3>
@@ -28,7 +31,7 @@ function Footer() {
           </div>
         </div>      
       </div>
-      <iframe className='footer__iframe' src="https://yandex.ru/map-widget/v1/?um=constructor%3A319acaa98e815b7222a78f733279b72ebb5b65e621800c0f978fbf5230e850b7&amp;source=constructor" width="632" height="497" frameborder="0"></iframe>   
+      <iframe className='footer__iframe' src="https://yandex.ru/map-widget/v1/?um=constructor%3A319acaa98e815b7222a78f733279b72ebb5b65e621800c0f978fbf5230e850b7&amp;source=constructor" width="632" height="497" frameBorder="0"></iframe>   
     </footer>
   )
 }

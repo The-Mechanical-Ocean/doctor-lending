@@ -4,25 +4,21 @@ import CardProblem from '../CardProblem/CardProblem'
 import cards from '../../utils/cards-problem';
 
 function Problem() {  
-  const [isClick, setIsClick] = React.useState(false);
-  
-  function handleClick() { 
-    setIsClick(!isClick);
-  }
+  const [ index, setIndex ] = React.useState(0)
   
   return (  
     <section className='problem' id='problem'>
       <div className='problem__container'>  
-      <div className='problem__title-container'><h3 class='problem__title'>ПРОБЛЕМЫ С КОТОРЫМИ УСПЕШНО БОРЮТСЯ В НАШЕМ ЦЕНТРЕ</h3></div>
+      <div className='problem__title-container'><h3 className='problem__title'>ПРОБЛЕМЫ С КОТОРЫМИ УСПЕШНО БОРЮТСЯ В НАШЕМ ЦЕНТРЕ</h3></div>
       <div className='problem__nav'>  
-        <button className = {isClick ? 'problem__button problem__button-gradient' : 'problem__button'}
-                onClick={handleClick} type  ='button'>ЛЕЧЕБНЫЕ ПРОГРАММЫ</button>
-        <button className = {isClick ? 'problem__button problem__button-gradient' : 'problem__button'}
-                onClick={handleClick} type='button'>РЕАБИЛИТАЦИОННЫЕ ПРОГРАММЫ</button>
-        <button className = {isClick ? 'problem__button problem__button-gradient' : 'problem__button'}
-                onClick={handleClick} type='button'>КОРРЕКЦИОННЫЕ ПРОГРАММЫ</button>
+        {cards.map ((card, cardI) => {
+          return <button className={index === cardI ? 'problem__button problem__button-gradient' : 'problem__button'}
+                         onClick={() => setIndex(cardI)}
+                         key={card.textButton}
+                         >{card.textButton}</button>
+        })} 
       </div>
-      {cards.map ((card) => (<CardProblem key={card.id} card={card}/>))}  
+      <CardProblem card={cards[index]}/>  
       </div>
     </section>
   );

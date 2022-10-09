@@ -35,6 +35,14 @@
   align-items: center;
 }
 
+.footer__href {
+  cursor: pointer;
+  margin: 16px 0 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
 .footer__img-container {
   width: 112px;
   display: flex;
