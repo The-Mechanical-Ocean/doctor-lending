@@ -97,3 +97,37 @@
       background-repeat: no-repeat;
     }
   }
+
+  @media screen and (max-width: 640px) {
+    .card-problem {
+      flex-direction: column;
+      border-radius: 6px;
+      gap: 40px;
+      align-items: center;
+    }
+    
+    .card-problem__text-container {
+      gap: 15px;
+      /* width: 50%; */
+    }
+    
+    .card-problem__text {
+      font-size: 11px;
+      line-height: 18px;
+      margin-top: 20px;
+    }
+    
+    /* .card-problem__text:nth-of-type(1) {
+      margin-top: 40px;
+    } */
+    .card-problem__text-image {
+      width: 21px;
+      height: 21px;
+    }
+
+    .card-problem__image {
+      width: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }

@@ -119,6 +119,7 @@
   .about__info-container {
     padding-left: 30px;
   }
+
   .about__href {
     margin-top: 25px;
   }
@@ -152,6 +153,7 @@
     align-items: center;
     justify-content: space-around;
     text-align: center;
+    padding-left: 0;
   }  
   
   .about__foto {
