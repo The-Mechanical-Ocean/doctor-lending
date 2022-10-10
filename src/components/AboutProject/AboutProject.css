@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 1400px) {
   .about__info-container {
-    padding-left: 1%;
+    padding-left: 3%;
   }  
 }  
 
@@ -188,7 +188,7 @@
   }
 
   .about__text:last-of-type {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 0;
     font-size: 19px;
   }
