@@ -196,7 +196,7 @@
 
 @media screen and (max-width: 640px) {
   .card {
-    height: 636px;
+    height: 500px;
     width: 288px;
     flex-direction: column-reverse;
     align-items: center;
