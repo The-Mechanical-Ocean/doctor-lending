@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/doctor-lending/static/css/main.ff38351b.css",
+    "main.css": "/doctor-lending/static/css/main.a55f6de2.css",
     "main.js": "/doctor-lending/static/js/main.4bf1cb71.js",
     "static/js/787.5a0a1fd0.chunk.js": "/doctor-lending/static/js/787.5a0a1fd0.chunk.js",
     "static/media/Inovation__kovrik.svg": "/doctor-lending/static/media/Inovation__kovrik.6e4089389d3da07cab148a5b557c37f8.svg",
@@ -22,12 +22,12 @@
     "index.html": "/doctor-lending/index.html",
     "static/media/header-menu.svg": "/doctor-lending/static/media/header-menu.f7b5b14c40ea330fa29c.svg",
     "static/media/CardProblemGalka.svg": "/doctor-lending/static/media/CardProblemGalka.86e91d3e6cad8b371a1d2613da8ae131.svg",
-    "main.ff38351b.css.map": "/doctor-lending/static/css/main.ff38351b.css.map",
+    "main.a55f6de2.css.map": "/doctor-lending/static/css/main.a55f6de2.css.map",
     "main.4bf1cb71.js.map": "/doctor-lending/static/js/main.4bf1cb71.js.map",
     "787.5a0a1fd0.chunk.js.map": "/doctor-lending/static/js/787.5a0a1fd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff38351b.css",
+    "static/css/main.a55f6de2.css",
     "static/js/main.4bf1cb71.js"
   ]
 }
