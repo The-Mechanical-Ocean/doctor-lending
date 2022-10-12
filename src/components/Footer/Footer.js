@@ -11,19 +11,19 @@ function Footer() {
       <p className='footer__text'>Центр Доктора Лабунца - все права защищены 2022</p>
       <div className='footer__contact-container'>
         <div className='footer__contact-container-small'>
-          <h3>Адрес</h3>
-          <p>г. Москва</p>
+          <h3 className='footer__contact-container-small-title'>Адрес</h3>
+          <p className='footer__contact-container-small-text'>г. Москва</p>
         </div>
         <div className='footer__contact-container-small'>
-          <h3>Телефон</h3>
-          <a className='footer__href' href={ `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(MESSAGE)}` } target='_blank'>89160978804</a>
+          <h3 className='footer__contact-container-small-title'>Телефон</h3>
+          <a className='footer__href' href={ `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(MESSAGE)}` } target='_blank'><p className='footer__contact-container-small-text'>89160978804</p></a>
         </div>
         <div className='footer__contact-container-small'>
-          <h3>E-mail</h3>
-          <p>doctor@mail.ru</p>
+          <h3 className='footer__contact-container-small-title'>E-mail</h3>
+          <p className='footer__contact-container-small-text'>doctor@mail.ru</p>
         </div>
         <div className='footer__contact-container-small'>
-          <h3>Социальные сети</h3>
+          <h3 className='footer__contact-container-small-title'>Социальные сети</h3>
           <div className='footer__img-container'>
             <a href='' className='footer__link'><div className='footer__face-img'></div></a>
             <a href='' className='footer__link'><div className='footer__inst-img'></div></a>

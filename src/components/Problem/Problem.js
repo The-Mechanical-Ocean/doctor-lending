@@ -5,7 +5,8 @@ import cards from '../../utils/cards-problem';
 
 function Problem() {  
   const [ index, setIndex ] = React.useState(0)
-  
+  const [width, setWidth] = React.useState(window.innerWidth);
+
   return (  
     <section className='problem' id='problem'>
       <div className='problem__container'>  
