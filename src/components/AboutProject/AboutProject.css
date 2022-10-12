@@ -264,14 +264,16 @@
   .about__href {
     width: 182px;
     height: 59px;
-    font-size: 16px;
-    line-height: 20px;
     border-radius: 10px;
     margin-bottom: 25px;
   }
   
+  .about__href-text {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
   .about__title{
-    /* width: 90%; */
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -279,18 +281,19 @@
 
   .about__text{
     font-weight: 400;
-    line-height: 18px;
+    line-height: 22px;
   }
 
   .about__text:first-of-type{
-    /* padding-bottom: 70px; */
     margin-top: 10px;
     font-size: 15px;
+    line-height: 18px;
   }
 
   .about__text:last-of-type {
     margin-bottom: 50px;
     margin-top: 0;
     font-size: 19px;
+    line-height: 22px;
   }
 }
