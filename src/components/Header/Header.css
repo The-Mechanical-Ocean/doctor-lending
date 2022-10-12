@@ -111,7 +111,7 @@
 @media screen and (max-width: 640px) {
   .header {
     max-width: 320px;
-    height: 60px;
+    height: 50px;
   }
 
   .header__title {
@@ -140,13 +140,13 @@
   }
 
   .header__menu {
-    height: 24px;
-    width: 22px;
+    height: 18px;
+    width: 18px;
     margin-right: 10px;
   }
   
   .header__img-container {
     margin-left: 10px;
-    width: 65px;
+    width: 60px;
   }
 }
