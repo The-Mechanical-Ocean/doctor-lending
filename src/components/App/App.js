@@ -9,15 +9,15 @@ import Footer from '../Footer/Footer';
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <Header />
       <AboutProject />
       <Privilege />
       <Problem />
       <Inovation />
-      <Footer />      
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default App;
